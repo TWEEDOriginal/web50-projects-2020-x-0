@@ -1,0 +1,83 @@
+            h1{
+                text-align: center;
+                background-color: teal;
+            }
+                        @media (min-width: 500px) {
+                h2::before {
+                    content: "Welcome to Movies.com";
+                }
+            }
+
+            @media (max-width: 499px) {
+                h2::before {
+                    content: "Welcome!";
+                }
+            }
+            #p1{
+                text-align: center;
+            }
+            .contain {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .contain button {
+                background-color: springgreen;
+                font-size: 20px;
+                margin: 20px;
+                padding: 20px;
+                width: 200px;
+            }
+            .free::before {
+                content: "\21d2  Click here: ";
+                font-weight: bold;
+            }
+            .free:hover { color:yellow;
+}
+            .cunt::before {
+                content: "< Back ";
+                font-weight: bold;
+            }
+            .cunt , .row :hover { color:yellow;
+}
+        #p2{
+                text-align: right;
+            }
+            .luck {
+                background-color: springgreen;
+                font-size: 20px;
+                margin: 20px;
+                padding: 20px;
+                width: 200px;
+            }
+            .row > div {
+                padding: 20px;
+                background-color: teal;
+                border: 2px solid black;
+            }
+            table {
+                border: 2px solid black;
+                border-collapse: collapse;
+                width: 50%;
+                margin: 25px;
+            }
+
+            th, td {
+                border: 1px solid black;
+                padding: 5px;
+                text-align: center;
+            }
+
+            th {
+                background-color: lightgray;
+            }
+            ul {
+                margin: 15px;
+                text-align: center;
+            }
+            ul>p {
+                font-size: 40px;
+              
+                 font-weight: bold;
+               
+            }
